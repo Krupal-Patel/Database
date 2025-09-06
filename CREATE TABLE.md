@@ -5,6 +5,7 @@ CREATE TABLE Owners(
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100),
     birthdate datetime NOT NULL);
+
     
 CREATE TABLE Dealers(
     dealer_id int PRIMARY KEY,
